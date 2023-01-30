@@ -1,8 +1,6 @@
-// import React, { createContext, useState } from 'react'
+import React from 'react'
 import RouteFile from './Components/RouteFile'
 import Navbar from './Components/Navbar'
-// import { Context } from 'react'
-// import Students from './Components/Students'
 
 const App = () => {
   return (
@@ -13,5 +11,4 @@ const App = () => {
   )
 }
 
-
-export default App;
+export default App

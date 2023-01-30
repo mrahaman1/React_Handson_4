@@ -2,7 +2,6 @@ import React from 'react'
 import {Link} from "react-router-dom"
 import "./AddNewStudent.css"
 
-
 const AddNewStudent = () => {
   return (
     <div className='addnewstudentform'>
@@ -36,4 +35,3 @@ const AddNewStudent = () => {
 }
 
 export default AddNewStudent
-

@@ -19,7 +19,7 @@ const EditStudent = () => {
     const handleChange = (event) =>
     {
         newObj[event.target.name] = event.target.value;
-         
+       // console.log(newObj);     
     }
 
    const handleUpdate = (event) =>{
@@ -27,7 +27,7 @@ const EditStudent = () => {
        context.updateFunction(
         (prevObj)=>{
             prevObj[index] = newObj;
-            return (prevObj)  
+            return (prevObj)  //updated prevobj is the new state
         }
        );
        navigate('/');

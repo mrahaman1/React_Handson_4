@@ -6,16 +6,15 @@ import Students from './Students'
 import Contact from "./Contact"
 import AddNewStudent from './AddNewStudent'
 import EditStudent from './EditStudent'
-// import Context from './Context'
 import { StudentContext } from './Context'
 
 
 const RouteFile = () => {
   var list=[
-    {id:1,name:'Mustafijur',age:26,course:"MERN",batch:"september"},
-    {id:2,name:'Rahaman',age:28,course:"MERN",batch:"october"},
-    {id:3,name:'Rahul Kumar',age:27,course:"MERN",batch:"November"},
-    {id:4,name:'Satya',age:25,course:"MERN",batch:"December"},
+    {id:1,name:'Mustafijur Rahaman',age:26,course:"MERN",batch:"september"},
+    {id:2,name:'Raiyan Ashab',age:28,course:"MERN",batch:"october"},
+    {id:3,name:'Aynan Tasneem',age:27,course:"MERN",batch:"November"},
+    {id:4,name:'Atif Aslam',age:25,course:"MERN",batch:"December"},
 ];
   const [newstudent,setNewStudent]=useState(list)
   return (

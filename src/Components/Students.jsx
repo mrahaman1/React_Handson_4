@@ -42,7 +42,7 @@ const Students = () => {
                     <td>{studentdata.batch}</td>
                     <td>
                        <Link to="/editstudent" state={{newstudent:index}}><button><i class="fa-solid fa-pen"></i></button></Link> 
-                       <Link><button><i class="fa-solid fa-trash"></i></button></Link>
+                       <button><i class="fa-solid fa-trash"></i></button>
                     </td>
                 </tr>
                 ))}
